@@ -1,0 +1,8 @@
+module:org.orderManagement
+org.orderManagement
+org.orderManagement.bll
+org.orderManagement.businessLayer
+org.orderManagement.connection
+org.orderManagement.dataAccess
+org.orderManagement.model
+org.orderManagement.Validator

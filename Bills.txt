@@ -1,0 +1,70 @@
+Bill 1 Information:
+Name: Myla Aiden
+Address: Parkfield Beeches nr.25
+Email: Myla@gmail.com
+Ordered Product: Nail
+Ordered Quantity: 5
+Product price: 1
+Total Price: productPrice * orderedQuantity = 5
+
+
+Bill 2 Information:
+Name: Berny Fred
+Address: Drummond Woodlands n.22
+Email: BFred@yahoo.com
+Ordered Product: Hammer
+Ordered Quantity: 3
+Product price: 12
+Total Price: productPrice * orderedQuantity = 36
+
+
+Bill 3 Information:
+Name: Perce Travers
+Address: Sefton Walk n.2
+Email: PerceTra@gmail.com
+Ordered Product: Duct Tape
+Ordered Quantity: 5
+Product price: 5
+Total Price: productPrice * orderedQuantity = 25
+
+
+Bill 4 Information:
+Name: Edie April
+Address: Crunch Croft n.51
+Email: Apriledi@gmail.com
+Ordered Product: Screw
+Ordered Quantity: 33
+Product price: 2
+Total Price: productPrice * orderedQuantity = 66
+
+
+Bill 5 Information:
+Name: Raz
+Address: Dej n.5
+Email: adsasf@yahoo.com
+Ordered Product: Screw
+Ordered Quantity: 4
+Product price: 2
+Total Price: productPrice * orderedQuantity = 8
+
+
+Bill 6 Information:
+Name: Luule Sarah
+Address: Olive Brae n.3
+Email: Luuuuuule@gmail.com
+Ordered Product: Wooden Pole
+Ordered Quantity: 100
+Product price: 3
+Total Price: productPrice * orderedQuantity = 300
+
+
+Bill 7 Information:
+Name: Florin Salam
+Address: Strada Banilor n.1
+Email: numaiunul@gmail.com
+Ordered Product: Duct Tape
+Ordered Quantity: 3
+Product price: 5
+Total Price: productPrice * orderedQuantity = 15
+
+

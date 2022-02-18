@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="600.0" prefWidth="800.0" spacing="20.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.orderManagement.businessLayer.Controller">
+   <children>
+      <AnchorPane prefHeight="586.0" prefWidth="778.0">
+         <children>
+            <Label layoutY="-12.0" prefHeight="46.0" prefWidth="74.0" text="Client View">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="primaryButton" layoutX="84.0" layoutY="-18.0" onAction="#switchToProduct" prefHeight="58.0" prefWidth="112.0" style="-fx-border-color: black;" text="Switch to Product" />
+            <Button fx:id="primaryButton1" layoutX="196.0" layoutY="-18.0" onAction="#switchToOrder" prefHeight="58.0" prefWidth="102.0" style="-fx-border-color: black;" text="Switch to Order" />
+            <TableView fx:id="client_table" layoutY="45.0" prefHeight="441.0" prefWidth="765.0" style="-fx-border-color: black;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+              <columns>
+                <TableColumn fx:id="col_idclient" prefWidth="72.0" />
+                <TableColumn fx:id="col_name" prefWidth="184.79998779296875" />
+                  <TableColumn fx:id="col_address" prefWidth="288.800048828125" />
+                  <TableColumn fx:id="col_email" minWidth="0.0" prefWidth="214.40008544921875" />
+              </columns>
+            </TableView>
+            <Button layoutX="490.0" layoutY="-18.0" mnemonicParsing="false" onAction="#addClientSelected" prefHeight="58.0" prefWidth="82.0" style="-fx-border-color: black;" text="Add Client" />
+            <TextField fx:id="client_id" layoutY="40.0" prefHeight="26.0" prefWidth="74.0" promptText="idclient" style="-fx-border-color: black;" />
+            <TextField fx:id="client_name" layoutX="74.0" layoutY="40.0" prefHeight="27.0" prefWidth="184.0" promptText="name" style="-fx-border-color: black;" />
+            <TextField fx:id="client_address" layoutX="258.0" layoutY="40.0" prefWidth="291.0" promptText="address" style="-fx-border-color: black;" />
+            <TextField fx:id="client_email" layoutX="549.0" layoutY="40.0" prefHeight="27.0" prefWidth="215.0" promptText="email" style="-fx-border-color: black;" />
+            <Button layoutX="394.0" layoutY="-18.0" mnemonicParsing="false" onAction="#deleteClientSelected" prefHeight="58.0" prefWidth="96.0" style="-fx-border-color: black;" text="Remove Client" />
+            <Button layoutX="298.0" layoutY="-18.0" mnemonicParsing="false" onAction="#refreshClient" prefHeight="58.0" prefWidth="96.0" style="-fx-border-color: black;" text="Show/Refresh" />
+            <Button layoutX="572.0" layoutY="-18.0" mnemonicParsing="false" onAction="#updateClientSelected" prefHeight="58.0" prefWidth="96.0" style="-fx-border-color: black;" text="Update Client" />
+            <Button layoutX="668.0" layoutY="-18.0" mnemonicParsing="false" onAction="#findClientSelected" prefHeight="58.0" prefWidth="96.0" style="-fx-border-color: black;" text="Find" />
+         </children>
+      </AnchorPane>
+      <TextField fx:id="errLogClient" alignment="CENTER" editable="false" prefHeight="32.0" prefWidth="765.0" promptText="Error messages are displayed here" style="-fx-border-color: black; -fx-text-fill: #FF0000;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
